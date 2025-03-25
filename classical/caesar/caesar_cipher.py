@@ -31,7 +31,7 @@ while another:
         operation = "encryption" if command == 1 else "decryption"
         characters = input("Enter what you want to encrypt or decrypt: \n")
 
-        result = caesar_cipher(char=characters.lower(), shift=shift_value, operation=operation)
+        result = caesar_cipher(char=characters, shift=shift_value, operation=operation)
 
         print(f"The {operation} for {characters} is:\n{result}")
     except ValueError as e:
