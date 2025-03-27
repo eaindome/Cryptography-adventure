@@ -122,7 +122,6 @@ keyword = "PLAYFAIR"
 plaintext = "instruments"
 ciphertext = "EUTNIVEGONXY"
 
-
 encrypt_pairs = separate_text(plaintext)
 print(f"pairs: {encrypt_pairs}\n")
 
